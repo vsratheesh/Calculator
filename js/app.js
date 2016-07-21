@@ -7,7 +7,10 @@ $(document).ready(function(){
 				$('#preview').append(key);
 			}
 
-			} else {
+			} else if(key == 'CLR'){
+				var newPreview = $('#preview').html().slice(0,-1);
+				$('#preview').html(newPreview);
+			}else {
 
 			$('#preview').append(key);
 		}
