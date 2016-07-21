@@ -1,0 +1,66 @@
+#calculator {
+	width: 70vh;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	overflow: hidden;
+
+}
+
+
+#calculator #result {
+	height: 15vh;
+	font-weight: 300;
+	font-size: 9vh;
+	text-align: right;
+	line-height: 16vh;
+	background-color: rgba(144, 132, 148, 0.36);
+}
+
+#calculator #preview {
+	height: 10vh;
+	font-weight: 400;
+	text-align: right;
+	font-size: 5vh;
+	line-height: 10vh;
+	background-color: #95a5a6;
+}
+
+
+#calculator #keys {
+	color: black;
+	text-align: center;
+	cursor: pointer;
+}
+
+#calculator #keys .key::selection {
+	background: transparent;
+}
+#calculator #keys .key::-moz-selection {
+	background: transparent;
+
+}
+#calculator #keys #numbers {
+	background-color: #BFBFC1;
+	padding: 0; 
+}
+#calculator #keys #numbers .key {
+	height: 17.5vh;
+	font-size: 5vh;
+	line-height: 17.5vh;
+}
+#calculator #keys #numbers .key:hover {
+	background-color: #b2b2b4;
+}
+#calculator #keys #operators {
+	background-color: rgba(114, 102, 123, 0.59);
+	padding: 0; 
+}
+#calculator #keys #operators .key {
+	height: 14vh;
+	font-size: 4vh;
+	line-height: 14vh; 
+}
+#calculator #keys #operators .key:hover {
+	background-color: #2b3c4e;
+}
