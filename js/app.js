@@ -25,7 +25,13 @@ $(document).ready(function(){
 			$('#preview').append(key);
 			}
 
-		} else {
+		}else if (key =='=') {
+			var result = eval($('#preview').html());
+			$('#preview').html(result);
+			$('#result').html(result);
+
+		} 
+		else {
 			$('#preview').append(key);
 		}
 	});
